@@ -13,7 +13,38 @@
 		0FBE227B262E05DC0027052C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FBE2279262E05DC0027052C /* Main.storyboard */; };
 		0FBE227D262E05DE0027052C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBE227C262E05DE0027052C /* Assets.xcassets */; };
 		0FBE2280262E05DE0027052C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FBE227E262E05DE0027052C /* LaunchScreen.storyboard */; };
+		0FBE22BA262E09540027052C /* Window.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBE22B8262E09540027052C /* Window.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FBE22BD262E09540027052C /* Window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBE22B6262E09540027052C /* Window.framework */; };
+		0FBE22BE262E09540027052C /* Window.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBE22B6262E09540027052C /* Window.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0FBE22D3262E0B870027052C /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE22D2262E0B870027052C /* Window.swift */; };
+		0FBE22D6262E0C9F0027052C /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE22D5262E0C9F0027052C /* Presenter.swift */; };
+		0FBE22D9262E0D570027052C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE22D8262E0D570027052C /* Router.swift */; };
+		0FBE22DE262E0E0C0027052C /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE22DB262E0DF90027052C /* Builder.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FBE22BB262E09540027052C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FBE2268262E05DC0027052C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FBE22B5262E09540027052C;
+			remoteInfo = Window;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0FBE22BF262E09540027052C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0FBE22BE262E09540027052C /* Window.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0FBE2270262E05DC0027052C /* WhatsAppViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAppViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +55,25 @@
 		0FBE227C262E05DE0027052C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FBE227F262E05DE0027052C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FBE2281262E05DE0027052C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBE22B6262E09540027052C /* Window.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Window.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBE22B8262E09540027052C /* Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		0FBE22B9262E09540027052C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBE22D2262E0B870027052C /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		0FBE22D5262E0C9F0027052C /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		0FBE22D8262E0D570027052C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		0FBE22DB262E0DF90027052C /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0FBE226D262E05DC0027052C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBE22BD262E09540027052C /* Window.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBE22B3262E09540027052C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				0FBE2270262E05DC0027052C /* WhatsAppViper.app */,
+				0FBE22B6262E09540027052C /* Window.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +103,7 @@
 		0FBE2272262E05DC0027052C /* WhatsAppViper */ = {
 			isa = PBXGroup;
 			children = (
+				0FBE22C4262E09660027052C /* Modules */,
 				0FBE2273262E05DC0027052C /* AppDelegate.swift */,
 				0FBE2275262E05DC0027052C /* SceneDelegate.swift */,
 				0FBE2277262E05DC0027052C /* ViewController.swift */,
@@ -67,7 +115,39 @@
 			path = WhatsAppViper;
 			sourceTree = "<group>";
 		};
+		0FBE22B7262E09540027052C /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				0FBE22B8262E09540027052C /* Window.h */,
+				0FBE22D2262E0B870027052C /* Window.swift */,
+				0FBE22DB262E0DF90027052C /* Builder.swift */,
+				0FBE22B9262E09540027052C /* Info.plist */,
+				0FBE22D5262E0C9F0027052C /* Presenter.swift */,
+				0FBE22D8262E0D570027052C /* Router.swift */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		0FBE22C4262E09660027052C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0FBE22B7262E09540027052C /* Window */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0FBE22B1262E09540027052C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBE22BA262E09540027052C /* Window.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		0FBE226F262E05DC0027052C /* WhatsAppViper */ = {
@@ -77,15 +157,35 @@
 				0FBE226C262E05DC0027052C /* Sources */,
 				0FBE226D262E05DC0027052C /* Frameworks */,
 				0FBE226E262E05DC0027052C /* Resources */,
+				0FBE22BF262E09540027052C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0FBE22BC262E09540027052C /* PBXTargetDependency */,
 			);
 			name = WhatsAppViper;
 			productName = WhatsAppViper;
 			productReference = 0FBE2270262E05DC0027052C /* WhatsAppViper.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0FBE22B5262E09540027052C /* Window */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FBE22C2262E09540027052C /* Build configuration list for PBXNativeTarget "Window" */;
+			buildPhases = (
+				0FBE22B1262E09540027052C /* Headers */,
+				0FBE22B2262E09540027052C /* Sources */,
+				0FBE22B3262E09540027052C /* Frameworks */,
+				0FBE22B4262E09540027052C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Window;
+			productName = Window;
+			productReference = 0FBE22B6262E09540027052C /* Window.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +198,10 @@
 				TargetAttributes = {
 					0FBE226F262E05DC0027052C = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					0FBE22B5262E09540027052C = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -115,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				0FBE226F262E05DC0027052C /* WhatsAppViper */,
+				0FBE22B5262E09540027052C /* Window */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +232,13 @@
 				0FBE2280262E05DE0027052C /* LaunchScreen.storyboard in Resources */,
 				0FBE227D262E05DE0027052C /* Assets.xcassets in Resources */,
 				0FBE227B262E05DC0027052C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FBE22B4262E09540027052C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +255,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0FBE22B2262E09540027052C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBE22D6262E0C9F0027052C /* Presenter.swift in Sources */,
+				0FBE22D9262E0D570027052C /* Router.swift in Sources */,
+				0FBE22D3262E0B870027052C /* Window.swift in Sources */,
+				0FBE22DE262E0E0C0027052C /* Builder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FBE22BC262E09540027052C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FBE22B5262E09540027052C /* Window */;
+			targetProxy = 0FBE22BB262E09540027052C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0FBE2279262E05DC0027052C /* Main.storyboard */ = {
@@ -284,6 +415,7 @@
 		0FBE2285262E05DE0027052C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +435,7 @@
 		0FBE2286262E05DE0027052C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -316,6 +449,63 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FBE22C0262E09540027052C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WhatsAppViper/Modules/Window/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.Window;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0FBE22C1262E09540027052C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WhatsAppViper/Modules/Window/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.Window;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -336,6 +526,15 @@
 			buildConfigurations = (
 				0FBE2285262E05DE0027052C /* Debug */,
 				0FBE2286262E05DE0027052C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FBE22C2262E09540027052C /* Build configuration list for PBXNativeTarget "Window" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FBE22C0262E09540027052C /* Debug */,
+				0FBE22C1262E09540027052C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
