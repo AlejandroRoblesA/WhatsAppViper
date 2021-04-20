@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F96F87B262E3EF100342A0F /* Landing.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F96F879262E3EF100342A0F /* Landing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F96F87E262E3EF100342A0F /* Landing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F96F877262E3EF100342A0F /* Landing.framework */; };
+		0F96F87F262E3EF100342A0F /* Landing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F96F877262E3EF100342A0F /* Landing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0F96F888262E3FBF00342A0F /* Landing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F96F887262E3FBF00342A0F /* Landing.storyboard */; };
+		0F96F88C262E401E00342A0F /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F96F88B262E401E00342A0F /* LandingViewController.swift */; };
+		0F96F89C262E410200342A0F /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F96F89B262E410200342A0F /* Builder.swift */; };
+		0F96F8A8262E41F700342A0F /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F96F8A6262E41F700342A0F /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F96F8AB262E41F700342A0F /* Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F96F8A4262E41F700342A0F /* Utility.framework */; };
+		0F96F8AC262E41F700342A0F /* Utility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F96F8A4262E41F700342A0F /* Utility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0F96F8B8262E42B200342A0F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F96F8B7262E42B200342A0F /* UIViewController+Extensions.swift */; };
+		0F96F8C9262E497F00342A0F /* Landing.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F96F8C8262E497F00342A0F /* Landing.xcassets */; };
 		0FBE2274262E05DC0027052C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE2273262E05DC0027052C /* AppDelegate.swift */; };
 		0FBE2276262E05DC0027052C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE2275262E05DC0027052C /* SceneDelegate.swift */; };
 		0FBE2278262E05DC0027052C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE2277262E05DC0027052C /* ViewController.swift */; };
@@ -23,6 +34,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0F96F87C262E3EF100342A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FBE2268262E05DC0027052C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F96F876262E3EF100342A0F;
+			remoteInfo = Landing;
+		};
+		0F96F8A9262E41F700342A0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FBE2268262E05DC0027052C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F96F8A3262E41F700342A0F;
+			remoteInfo = Utility;
+		};
 		0FBE22BB262E09540027052C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0FBE2268262E05DC0027052C /* Project object */;
@@ -39,6 +64,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				0F96F8AC262E41F700342A0F /* Utility.framework in Embed Frameworks */,
+				0F96F87F262E3EF100342A0F /* Landing.framework in Embed Frameworks */,
 				0FBE22BE262E09540027052C /* Window.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -47,6 +74,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F96F877262E3EF100342A0F /* Landing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Landing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F96F879262E3EF100342A0F /* Landing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Landing.h; sourceTree = "<group>"; };
+		0F96F87A262E3EF100342A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F96F887262E3FBF00342A0F /* Landing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Landing.storyboard; sourceTree = "<group>"; };
+		0F96F88B262E401E00342A0F /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		0F96F89B262E410200342A0F /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		0F96F8A4262E41F700342A0F /* Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F96F8A6262E41F700342A0F /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		0F96F8A7262E41F700342A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F96F8B7262E42B200342A0F /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		0F96F8C8262E497F00342A0F /* Landing.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Landing.xcassets; sourceTree = "<group>"; };
 		0FBE2270262E05DC0027052C /* WhatsAppViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAppViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBE2273262E05DC0027052C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FBE2275262E05DC0027052C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,10 +103,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0F96F874262E3EF100342A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F96F8A1262E41F700342A0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FBE226D262E05DC0027052C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F96F8AB262E41F700342A0F /* Utility.framework in Frameworks */,
+				0F96F87E262E3EF100342A0F /* Landing.framework in Frameworks */,
 				0FBE22BD262E09540027052C /* Window.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +137,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F96F878262E3EF100342A0F /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				0F96F879262E3EF100342A0F /* Landing.h */,
+				0F96F87A262E3EF100342A0F /* Info.plist */,
+				0F96F887262E3FBF00342A0F /* Landing.storyboard */,
+				0F96F88B262E401E00342A0F /* LandingViewController.swift */,
+				0F96F89B262E410200342A0F /* Builder.swift */,
+				0F96F8C8262E497F00342A0F /* Landing.xcassets */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		0F96F8A5262E41F700342A0F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0F96F8A6262E41F700342A0F /* Utility.h */,
+				0F96F8A7262E41F700342A0F /* Info.plist */,
+				0F96F8B7262E42B200342A0F /* UIViewController+Extensions.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0F96F8B3262E421000342A0F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0F96F8A5262E41F700342A0F /* Utility */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		0FBE2267262E05DC0027052C = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +181,8 @@
 			children = (
 				0FBE2270262E05DC0027052C /* WhatsAppViper.app */,
 				0FBE22B6262E09540027052C /* Window.framework */,
+				0F96F877262E3EF100342A0F /* Landing.framework */,
+				0F96F8A4262E41F700342A0F /* Utility.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,7 +218,9 @@
 		0FBE22C4262E09660027052C /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				0F96F8B3262E421000342A0F /* Shared */,
 				0FBE22B7262E09540027052C /* Window */,
+				0F96F878262E3EF100342A0F /* Landing */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -139,6 +228,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0F96F872262E3EF100342A0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F96F87B262E3EF100342A0F /* Landing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F96F89F262E41F700342A0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F96F8A8262E41F700342A0F /* Utility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FBE22B1262E09540027052C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,6 +255,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0F96F876262E3EF100342A0F /* Landing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F96F882262E3EF100342A0F /* Build configuration list for PBXNativeTarget "Landing" */;
+			buildPhases = (
+				0F96F872262E3EF100342A0F /* Headers */,
+				0F96F873262E3EF100342A0F /* Sources */,
+				0F96F874262E3EF100342A0F /* Frameworks */,
+				0F96F875262E3EF100342A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Landing;
+			productName = Landing;
+			productReference = 0F96F877262E3EF100342A0F /* Landing.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0F96F8A3262E41F700342A0F /* Utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F96F8AD262E41F700342A0F /* Build configuration list for PBXNativeTarget "Utility" */;
+			buildPhases = (
+				0F96F89F262E41F700342A0F /* Headers */,
+				0F96F8A0262E41F700342A0F /* Sources */,
+				0F96F8A1262E41F700342A0F /* Frameworks */,
+				0F96F8A2262E41F700342A0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Utility;
+			productName = Utility;
+			productReference = 0F96F8A4262E41F700342A0F /* Utility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		0FBE226F262E05DC0027052C /* WhatsAppViper */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FBE2284262E05DE0027052C /* Build configuration list for PBXNativeTarget "WhatsAppViper" */;
@@ -163,6 +304,8 @@
 			);
 			dependencies = (
 				0FBE22BC262E09540027052C /* PBXTargetDependency */,
+				0F96F87D262E3EF100342A0F /* PBXTargetDependency */,
+				0F96F8AA262E41F700342A0F /* PBXTargetDependency */,
 			);
 			name = WhatsAppViper;
 			productName = WhatsAppViper;
@@ -196,6 +339,14 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					0F96F876262E3EF100342A0F = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					0F96F8A3262E41F700342A0F = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
 					0FBE226F262E05DC0027052C = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -220,11 +371,29 @@
 			targets = (
 				0FBE226F262E05DC0027052C /* WhatsAppViper */,
 				0FBE22B5262E09540027052C /* Window */,
+				0F96F876262E3EF100342A0F /* Landing */,
+				0F96F8A3262E41F700342A0F /* Utility */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0F96F875262E3EF100342A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F96F888262E3FBF00342A0F /* Landing.storyboard in Resources */,
+				0F96F8C9262E497F00342A0F /* Landing.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F96F8A2262E41F700342A0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FBE226E262E05DC0027052C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +414,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0F96F873262E3EF100342A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F96F88C262E401E00342A0F /* LandingViewController.swift in Sources */,
+				0F96F89C262E410200342A0F /* Builder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F96F8A0262E41F700342A0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F96F8B8262E42B200342A0F /* UIViewController+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0FBE226C262E05DC0027052C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -269,6 +455,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0F96F87D262E3EF100342A0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F96F876262E3EF100342A0F /* Landing */;
+			targetProxy = 0F96F87C262E3EF100342A0F /* PBXContainerItemProxy */;
+		};
+		0F96F8AA262E41F700342A0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F96F8A3262E41F700342A0F /* Utility */;
+			targetProxy = 0F96F8A9262E41F700342A0F /* PBXContainerItemProxy */;
+		};
 		0FBE22BC262E09540027052C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0FBE22B5262E09540027052C /* Window */;
@@ -296,6 +492,120 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0F96F880262E3EF100342A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WhatsAppViper/Modules/Landing/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.Landing;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0F96F881262E3EF100342A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WhatsAppViper/Modules/Landing/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.Landing;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F96F8AE262E41F700342A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WhatsAppViper/Modules/Shared/Utility/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.Utility;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0F96F8AF262E41F700342A0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = WhatsAppViper/Modules/Shared/Utility/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Alejandro.Utility;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		0FBE2282262E05DE0027052C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -512,6 +822,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F96F882262E3EF100342A0F /* Build configuration list for PBXNativeTarget "Landing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F96F880262E3EF100342A0F /* Debug */,
+				0F96F881262E3EF100342A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F96F8AD262E41F700342A0F /* Build configuration list for PBXNativeTarget "Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F96F8AE262E41F700342A0F /* Debug */,
+				0F96F8AF262E41F700342A0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0FBE226B262E05DC0027052C /* Build configuration list for PBXProject "WhatsAppViper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
