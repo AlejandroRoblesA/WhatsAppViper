@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Chatroom Login View Controller-->
+        <scene sceneID="50Y-KT-1rY">
+            <objects>
+                <viewController storyboardIdentifier="ChatroomLoginViewController" id="cIk-pc-MSE" customClass="ChatroomLoginViewController" customModule="ChatroomLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o9C-4f-jFT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WhatsApp" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5s-bg-PnH">
+                                <rect key="frame" x="20" y="124" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="9mJ-Ne-sBW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="40"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bQq-XB-nBp">
+                                <rect key="frame" x="107" y="204" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="O8l-GB-4aw"/>
+                                    <constraint firstAttribute="width" constant="200" id="faz-74-qit"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="b5R-hs-4K4">
+                                <rect key="frame" x="60" y="484" width="294" height="100"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Username" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6gc-Ut-sum">
+                                        <rect key="frame" x="0.0" y="0.0" width="294" height="42"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iav-z4-ffo">
+                                        <rect key="frame" x="0.0" y="58" width="294" height="42"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="WJb-Wh-0jo"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTZ-aq-zK6">
+                                <rect key="frame" x="117" y="762" width="180" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="oqP-VO-PcQ"/>
+                                    <constraint firstAttribute="height" constant="50" id="r9R-gY-BkJ"/>
+                                </constraints>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SeJ-kj-VhL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="SeJ-kj-VhL" firstAttribute="trailing" secondItem="F5s-bg-PnH" secondAttribute="trailing" constant="20" id="Gbu-Bf-Wgg"/>
+                            <constraint firstItem="hTZ-aq-zK6" firstAttribute="centerX" secondItem="o9C-4f-jFT" secondAttribute="centerX" id="IEG-26-nqa"/>
+                            <constraint firstItem="F5s-bg-PnH" firstAttribute="leading" secondItem="SeJ-kj-VhL" secondAttribute="leading" constant="20" id="LfO-wy-m8I"/>
+                            <constraint firstItem="b5R-hs-4K4" firstAttribute="top" secondItem="bQq-XB-nBp" secondAttribute="bottom" constant="80" id="iew-g5-QLK"/>
+                            <constraint firstItem="F5s-bg-PnH" firstAttribute="top" secondItem="SeJ-kj-VhL" secondAttribute="top" constant="80" id="kWW-Lv-1rk"/>
+                            <constraint firstItem="SeJ-kj-VhL" firstAttribute="trailing" secondItem="b5R-hs-4K4" secondAttribute="trailing" constant="60" id="lTg-UP-h8n"/>
+                            <constraint firstItem="b5R-hs-4K4" firstAttribute="leading" secondItem="SeJ-kj-VhL" secondAttribute="leading" constant="60" id="rvK-xv-UAv"/>
+                            <constraint firstItem="SeJ-kj-VhL" firstAttribute="bottom" secondItem="hTZ-aq-zK6" secondAttribute="bottom" constant="50" id="v7h-fP-VzB"/>
+                            <constraint firstItem="bQq-XB-nBp" firstAttribute="top" secondItem="F5s-bg-PnH" secondAttribute="bottom" constant="40" id="xZf-kf-fSU"/>
+                            <constraint firstItem="bQq-XB-nBp" firstAttribute="centerX" secondItem="o9C-4f-jFT" secondAttribute="centerX" id="zSS-Zq-Fj3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="avatarImageView" destination="bQq-XB-nBp" id="kQX-bs-O2l"/>
+                        <outlet property="emailTextField" destination="Iav-z4-ffo" id="9IC-eb-fTX"/>
+                        <outlet property="loginButton" destination="hTZ-aq-zK6" id="cH2-CZ-oma"/>
+                        <outlet property="titleLabel" destination="F5s-bg-PnH" id="k3E-ml-3aM"/>
+                        <outlet property="usernameTextField" destination="6gc-Ut-sum" id="vzd-HR-D6L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sWt-21-Nr6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="279.71014492753625" y="144.64285714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

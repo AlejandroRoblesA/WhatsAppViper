@@ -39,6 +39,9 @@
                                     <constraint firstAttribute="width" constant="60" id="XFA-nN-QfV"/>
                                     <constraint firstAttribute="height" constant="60" id="mbO-Yi-jdM"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="onStartTapped:" destination="VAG-Pc-ILb" eventType="touchUpInside" id="2E8-MP-6zN"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LB2-ba-I5a"/>
