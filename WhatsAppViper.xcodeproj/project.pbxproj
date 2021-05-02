@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F22C852263E377F00ED51EE /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F22C84F263E377F00ED51EE /* RxRelay.xcframework */; };
+		0F22C853263E377F00ED51EE /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F22C850263E377F00ED51EE /* RxCocoa.xcframework */; };
+		0F22C854263E377F00ED51EE /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F22C851263E377F00ED51EE /* RxSwift.xcframework */; };
 		0F96F87B262E3EF100342A0F /* Landing.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F96F879262E3EF100342A0F /* Landing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F96F87E262E3EF100342A0F /* Landing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F96F877262E3EF100342A0F /* Landing.framework */; };
 		0F96F87F262E3EF100342A0F /* Landing.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F96F877262E3EF100342A0F /* Landing.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -103,6 +106,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F22C84F263E377F00ED51EE /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
+		0F22C850263E377F00ED51EE /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		0F22C851263E377F00ED51EE /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
 		0F96F877262E3EF100342A0F /* Landing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Landing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F96F879262E3EF100342A0F /* Landing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Landing.h; sourceTree = "<group>"; };
 		0F96F87A262E3EF100342A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -175,12 +181,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F22C852263E377F00ED51EE /* RxRelay.xcframework in Frameworks */,
+				0F22C853263E377F00ED51EE /* RxCocoa.xcframework in Frameworks */,
+				0F22C854263E377F00ED51EE /* RxSwift.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F22C84E263E377F00ED51EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F22C850263E377F00ED51EE /* RxCocoa.xcframework */,
+				0F22C84F263E377F00ED51EE /* RxRelay.xcframework */,
+				0F22C851263E377F00ED51EE /* RxSwift.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0F96F878262E3EF100342A0F /* Landing */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +236,7 @@
 			children = (
 				0FBE2272262E05DC0027052C /* WhatsAppViper */,
 				0FBE2271262E05DC0027052C /* Products */,
+				0F22C84E263E377F00ED51EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
