@@ -21,6 +21,7 @@
 		0F96F8AC262E41F700342A0F /* Utility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0F96F8A4262E41F700342A0F /* Utility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0F96F8B8262E42B200342A0F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F96F8B7262E42B200342A0F /* UIViewController+Extensions.swift */; };
 		0F96F8C9262E497F00342A0F /* Landing.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F96F8C8262E497F00342A0F /* Landing.xcassets */; };
+		0FA0AA9F2641C261005B27DD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA0AA9E2641C261005B27DD /* String+Extension.swift */; };
 		0FBE2274262E05DC0027052C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE2273262E05DC0027052C /* AppDelegate.swift */; };
 		0FBE2276262E05DC0027052C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE2275262E05DC0027052C /* SceneDelegate.swift */; };
 		0FBE2278262E05DC0027052C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBE2277262E05DC0027052C /* ViewController.swift */; };
@@ -41,6 +42,8 @@
 		0FC0B6C4262F9D7C000E2139 /* ChatroomLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0B6C3262F9D7C000E2139 /* ChatroomLoginViewController.swift */; };
 		0FC0B6CA262F9E00000E2139 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0B6C9262F9E00000E2139 /* Builder.swift */; };
 		0FC0B6D8262F9F99000E2139 /* ChatroomLogin.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC0B6D7262F9F99000E2139 /* ChatroomLogin.xcassets */; };
+		0FFDE937263F1D7E00F3A56B /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFDE936263F1D7E00F3A56B /* Presenter.swift */; };
+		0FFDE939263F20B900F3A56B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FFDE938263F20B900F3A56B /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +123,7 @@
 		0F96F8A7262E41F700342A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F96F8B7262E42B200342A0F /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		0F96F8C8262E497F00342A0F /* Landing.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Landing.xcassets; sourceTree = "<group>"; };
+		0FA0AA9E2641C261005B27DD /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		0FBE2270262E05DC0027052C /* WhatsAppViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAppViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBE2273262E05DC0027052C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FBE2275262E05DC0027052C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 		0FC0B6C3262F9D7C000E2139 /* ChatroomLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatroomLoginViewController.swift; sourceTree = "<group>"; };
 		0FC0B6C9262F9E00000E2139 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		0FC0B6D7262F9F99000E2139 /* ChatroomLogin.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ChatroomLogin.xcassets; sourceTree = "<group>"; };
+		0FFDE936263F1D7E00F3A56B /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		0FFDE938263F20B900F3A56B /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +225,7 @@
 				0F96F8A6262E41F700342A0F /* Utility.h */,
 				0F96F8A7262E41F700342A0F /* Info.plist */,
 				0F96F8B7262E42B200342A0F /* UIViewController+Extensions.swift */,
+				0FA0AA9E2641C261005B27DD /* String+Extension.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -300,6 +307,8 @@
 				0FC0B6B0262F9C75000E2139 /* Info.plist */,
 				0FC0B6BD262F9D2A000E2139 /* ChatroomLogin.storyboard */,
 				0FC0B6D7262F9F99000E2139 /* ChatroomLogin.xcassets */,
+				0FFDE936263F1D7E00F3A56B /* Presenter.swift */,
+				0FFDE938263F20B900F3A56B /* Router.swift */,
 			);
 			path = ChatroomLogin;
 			sourceTree = "<group>";
@@ -549,6 +558,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA0AA9F2641C261005B27DD /* String+Extension.swift in Sources */,
 				0F96F8B8262E42B200342A0F /* UIViewController+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -578,7 +588,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FFDE939263F20B900F3A56B /* Router.swift in Sources */,
 				0FC0B6C4262F9D7C000E2139 /* ChatroomLoginViewController.swift in Sources */,
+				0FFDE937263F1D7E00F3A56B /* Presenter.swift in Sources */,
 				0FC0B6CA262F9E00000E2139 /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

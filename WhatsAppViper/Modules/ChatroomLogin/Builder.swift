@@ -13,6 +13,12 @@ public final class Builder {
     public static func builder() -> UIViewController{
         let storyboard = UIStoryboard.init(name: "ChatroomLogin", bundle: Bundle.init(for: self))
         let view = ChatroomLoginViewController.instantiate(from: storyboard)
+        let router = Router(viewController: view)
+        
+        view.presenterProducer = { input in
+            Presenter(input: input, router: router, useCases: ())
+        }
+        
         return view
     }
     
